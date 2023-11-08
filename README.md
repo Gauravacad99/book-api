@@ -49,7 +49,7 @@ PUT /api/books/12345 (where 12345 is the book's ID)
   "author": "Updated Author",
   "summary": "This is the updated book summary."
 }
-
+```
 ### Delete a Book
 
 - **Endpoint:** `DELETE /api/books/:id`
