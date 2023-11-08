@@ -6,7 +6,7 @@ const bookRoutes = require('./routes/bookRoutes');
 const app = express();
 const port = process.env.PORT || 3000;
 
-mongoose.connect('mongodb+srv://17ucs056:JB3aizSASHWrpV0d@cluster0.grenzmn.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://17ucs056:password@cluster0.grenzmn.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
